@@ -44,5 +44,6 @@ p {
 }
 .info {
 	margin-top: 50px;
-	font-size: 18px;
+	line-height: 1.6;
+	font-size: 20px;
 }
