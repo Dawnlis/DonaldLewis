@@ -13,19 +13,19 @@ p {
   font-size: 20px;
 }
 
- div#banner { 
+#banner { 
    position: absolute; 
    top: 0; 
    left: 0; 
    background-color: #84c2eb; 
    width: 100%; 
  }
- div#banner-content { 
+#banner-content { 
    width: 800px; 
    margin: 0 auto; 
    padding: 10px; 
  }
- div#main-content { 
+#main-content { 
    padding-top: 70px;
 }
 
