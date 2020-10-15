@@ -27,6 +27,7 @@ p {
  }
 #main-content { 
    padding-top: 70px;
+   padding-bottom: 70px;
 }
 
 #name {
@@ -41,7 +42,7 @@ p {
 	text-align: center;
 	font-weight: bold;
 }
-#info {
+.info {
 	margin-top: 50px;
 	font-size: 18px;
 }
