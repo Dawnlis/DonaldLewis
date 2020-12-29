@@ -8,14 +8,17 @@ h1 {
   text-align: center;
 }
 
-img {
-	
-	
-}
-
 p {
   font-family: verdana;
   font-size: 20px;
+}
+
+.moveimage
+{
+	float: left;
+	position: relative;
+	top: 0px;
+	
 }
 
 #banner { 
@@ -49,7 +52,8 @@ p {
 }
 
 .info {
-	margin-top: 50px;
-	line-height: 1.6;
-	font-size: 15px;
+	text-indent: 30px;
+	margin-top: 15%;
+	line-height: 2;
+	font-size: 16px;
 }
