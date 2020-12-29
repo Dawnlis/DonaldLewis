@@ -8,6 +8,11 @@ h1 {
   text-align: center;
 }
 
+img {
+	
+	
+}
+
 p {
   font-family: verdana;
   font-size: 20px;
@@ -45,5 +50,5 @@ p {
 .info {
 	margin-top: 50px;
 	line-height: 1.6;
-	font-size: 20px;
+	font-size: 15px;
 }
