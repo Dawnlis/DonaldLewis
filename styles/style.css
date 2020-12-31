@@ -1,6 +1,17 @@
+/*
+id #: single elements  specificity 100 camel case no dash    'contentTest'
+classes: shared elements specificity 10 lower case with dash 'content-test'
+tag: basic elements 	specificity 1
+*/
+
 body {
   background-color: #ffffff;
+  margin:0;
+}
+
+body * {
   font-family: "Tahoma";
+  color: #111111
 }
 
 h1 {
@@ -13,30 +24,73 @@ p {
   font-size: 20px;
 }
 
-.moveimage
+#buttonWrap {
+	text-align:center;
+}
+
+a.button {
+	background-color: #e4aacc;
+    border-color: #ac7596;
+	font-weight:bold;
+    border-width: 2px;
+    color: #384955;
+}
+
+a.button:hover {
+    border-color: #efefef;
+}
+
+a.button:active {
+    background-color: #ac7596;
+}
+
+.contact {
+    border-color: #ac7596;
+	font-weight:bold;
+    color: #384955;
+	font-size: 25px;
+}
+
+.education-title {
+	border-color: #ac7596;
+	font-weight:bold;
+	font-size: 25px;
+    color: #384955;
+}
+
+.education-text {
+	border-color: #ac7596;
+	font-weight:bold;
+    color: #384955;
+}
+
+#content {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#icon {
+	position: absolute;
+    right: 30px;
+}
+
+#moveImage
 {
+	margin: 5px;
 	float: left;
-	position: relative;
-	top: 0px;
 	
 }
 
 #banner { 
-   position: absolute; 
-   top: 0; 
-   left: 0; 
    background-color: #84c2eb; 
-   width: 100%; 
+   width: 100%;
+	margin-bottom: 20px;
  }
-#banner-content { 
+#bannerContent { 
    width: 800px; 
    margin: 0 auto; 
    padding: 10px; 
  }
-#main-content { 
-   padding-top: 70px;
-   padding-bottom: 70px;
-}
 
 #name {
 	margin-top: 20px;
@@ -53,7 +107,17 @@ p {
 
 .info {
 	text-indent: 30px;
-	margin-top: 15%;
+	margin-bottom:60px;
 	line-height: 2;
 	font-size: 16px;
+}
+
+.info-nonindent {
+	margin-bottom:40px;
+	line-height: 2;
+	font-size: 16px;
+}
+
+.info-spaced {
+	margin-top: 200px;
 }
